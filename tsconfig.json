@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "sourceMap": true,
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": false,
+    "strict": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
+// {
+//   "compilerOptions": {
+//     "target": "es2017",
+//     "module": "esNext",
+//     "moduleResolution": "node",
+//     "lib": ["es2017", "dom"],
+//     "noImplicitAny": false,
+//     "experimentalDecorators": true,
+//     "sourceMap": true,
+//     "allowJs": true,
+//     "outDir": "/dist"
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.js"],
+//   "exclude": ["node_modules"]
+// }
